@@ -16,7 +16,7 @@
   \********************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"\\nhtml, body, div, span, applet, object, iframe,\\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\\na, abbr, acronym, address, big, cite, code,\\ndel, dfn, em, img, ins, kbd, q, s, samp,\\nsmall, strike, strong, sub, sup, tt, var,\\nb, u, i, center,\\ndl, dt, dd, ol, ul, li,\\nfieldset, form, label, legend,\\ntable, caption, tbody, tfoot, thead, tr, th, td,\\narticle, aside, canvas, details, embed, \\nfigure, figcaption, footer, header, hgroup, \\nmenu, nav, output, ruby, section, summary,\\ntime, mark, audio, video {\\n\\tmargin: 0;\\n\\tpadding: 0;\\n\\tborder: 0;\\n\\tfont-size: 100%;\\n\\tfont: inherit;\\n\\tvertical-align: baseline;\\n}\\n/* HTML5 display-role reset for older browsers */\\narticle, aside, details, figcaption, figure, \\nfooter, header, hgroup, menu, nav, section {\\n\\tdisplay: block;\\n}\\nbody {\\n\\tline-height: 1;\\n}\\nol, ul {\\n\\tlist-style: none;\\n}\\nblockquote, q {\\n\\tquotes: none;\\n}\\nblockquote:before, blockquote:after,\\nq:before, q:after {\\n\\tcontent: '';\\n\\tcontent: none;\\n}\\ntable {\\n\\tborder-collapse: collapse;\\n\\tborder-spacing: 0;\\n}\\nbody{\\n    background-color: #E3D5CA;\\n}\\n.navLinks{\\n    display: flex;\\n    justify-content:  space-around;\\n    align-items: center;\\n    gap: 1rem;\\n}\\n.logo{\\n    font-size: 2.3rem;\\n    font-weight: 800;\\n}\\n.home{\\n    display: flex;\\n    flex-direction: column;\\n    justify-content: space-around;\\n}\\nnav{\\n    display: flex;\\n    justify-content: space-around;\\n    margin-top: 0.8rem;\\n}\\n.navLinks>p{\\n    font-size: 1.2rem;\\n}\\n.posterDiv{\\n    margin-top: 4rem;\\n    display: flex;\\n    justify-content: space-between;\\n    padding: 0 2em;\\n    align-items: center;\\n}\\n.posterDiv>img{\\n    width: 30%;\\n    border: 1px solid orange;\\n    border-radius: 40%;\\n}\\n.posterDiv>p{\\n    font-size: 5rem;\\n    width: 40%; \\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant_page/./src/styles/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"\\nhtml, body, div, span, applet, object, iframe,\\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\\na, abbr, acronym, address, big, cite, code,\\ndel, dfn, em, img, ins, kbd, q, s, samp,\\nsmall, strike, strong, sub, sup, tt, var,\\nb, u, i, center,\\ndl, dt, dd, ol, ul, li,\\nfieldset, form, label, legend,\\ntable, caption, tbody, tfoot, thead, tr, th, td,\\narticle, aside, canvas, details, embed, \\nfigure, figcaption, footer, header, hgroup, \\nmenu, nav, output, ruby, section, summary,\\ntime, mark, audio, video {\\n\\tmargin: 0;\\n\\tpadding: 0;\\n\\tborder: 0;\\n\\tfont-size: 100%;\\n\\tfont: inherit;\\n\\tvertical-align: baseline;\\n}\\n/* HTML5 display-role reset for older browsers */\\narticle, aside, details, figcaption, figure, \\nfooter, header, hgroup, menu, nav, section {\\n\\tdisplay: block;\\n}\\nbody {\\n\\tline-height: 1;\\n}\\nol, ul {\\n\\tlist-style: none;\\n}\\nblockquote, q {\\n\\tquotes: none;\\n}\\nblockquote:before, blockquote:after,\\nq:before, q:after {\\n\\tcontent: '';\\n\\tcontent: none;\\n}\\ntable {\\n\\tborder-collapse: collapse;\\n\\tborder-spacing: 0;\\n}\\nbody{\\n    background-color: #E3D5CA;\\n}\\n/*home.js styles starts*/\\n.navLinks{\\n    display: flex;\\n    justify-content:  space-around;\\n    align-items: center;\\n    gap: 1rem;\\n}\\n.logo{\\n    font-size: 2.3rem;\\n    font-weight: 800;\\n}\\n.home{\\n    display: flex;\\n    flex-direction: column;\\n    justify-content: space-around;\\n}\\nnav{\\n    display: flex;\\n    justify-content: space-around;\\n    margin-top: 0.8rem;\\n}\\n.navLinks>p{\\n    font-size: 1.2rem;\\n}\\n.posterDiv{\\n    margin-top: 4rem;\\n    display: flex;\\n    justify-content: space-between;\\n    padding: 0 2em;\\n    align-items: center;\\n}\\n.posterDiv>img{\\n    width: 30%;\\n    border: 1px solid orange;\\n    border-radius: 40%;\\n}\\n.posterDiv>p{\\n    font-size: 5rem;\\n    width: 40%; \\n}\\n/*home.js style ends*/\\n\\n/*menu.js style start */\\n\\n.menu{\\n    display: flex;\\n    flex-direction: column;\\n    justify-content: center;\\n    gap: 4.5rem;\\n}\\n.menuHeader{\\n    display: flex;\\n    justify-content: center;\\n    margin-top: 2.5rem;\\n}\\n.menuHeader>p{\\n    font-size: 4rem;\\n    /* border-bottom: 5px solid black; */\\n}\\n.allDonuts{\\n    display: grid;\\n    grid-template-columns: repeat(2,1fr);\\n    width: 30%;\\n    align-self: center;\\n    row-gap: 1.5rem;\\n    column-gap: 4.5rem;\\n    padding-bottom: 2em;\\n}\\n.allDonuts>div{\\n    display: flex;\\n    flex-direction: column;\\n    align-items: center;\\n    text-align: center;\\n    font-size: 1.3rem;\\n    font-weight: 400;\\n    gap: 8px;\\n}\\n.allDonuts>div>img{\\n    width:100%;\\n    border-radius: 12px;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant_page/./src/styles/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -116,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/home */ \"./src/modules/home.js\");\n\n\nconst content = document.querySelector('#content');\n\ncontent.appendChild((0,_modules_home__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\n\n//# sourceURL=webpack://restaurant_page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_home_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/home.js */ \"./src/modules/home.js\");\n/* harmony import */ var _modules_menu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/menu.js */ \"./src/modules/menu.js\");\n\n\n\nconst content = document.querySelector('#content');\n\ncontent.appendChild((0,_modules_menu_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])());\n\n//# sourceURL=webpack://restaurant_page/./src/index.js?");
 
 /***/ }),
 
@@ -130,6 +130,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/modules/menu.js":
+/*!*****************************!*\
+  !*** ./src/modules/menu.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menu)\n/* harmony export */ });\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../styles/style.css */ \"./src/styles/style.css\");\n/* harmony import */ var _images_donutImgs_bostonDon_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../images/donutImgs/bostonDon.jpg */ \"./src/images/donutImgs/bostonDon.jpg\");\n/* harmony import */ var _images_donutImgs_cakeDon_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../images/donutImgs/cakeDon.jpg */ \"./src/images/donutImgs/cakeDon.jpg\");\n/* harmony import */ var _images_donutImgs_crullerDon_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../images/donutImgs/crullerDon.jpg */ \"./src/images/donutImgs/crullerDon.jpg\");\n/* harmony import */ var _images_donutImgs_donutHoles_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../images/donutImgs/donutHoles.jpg */ \"./src/images/donutImgs/donutHoles.jpg\");\n/* harmony import */ var _images_donutImgs_longJohnDon_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../images/donutImgs/longJohnDon.jpg */ \"./src/images/donutImgs/longJohnDon.jpg\");\n/* harmony import */ var _images_donutImgs_yeastDon_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../images/donutImgs/yeastDon.jpg */ \"./src/images/donutImgs/yeastDon.jpg\");\n\n\n\n\n\n\n\n\nfunction menu(){\n    const menuDiv = document.createElement('div');\n\n    const menuHeader = document.createElement('div');\n    const menuLogo = document.createElement('p');\n    const donutDiv = document.createElement('div');\n    \n    const bostonDonDiv = document.createElement('div');\n    const cakeDonDiv = document.createElement('div');\n    const crullerDonDiv = document.createElement('div');\n    const donutHolesDiv = document.createElement('div');\n    const longJohnDonDiv = document.createElement('div');\n    const yeastDonDiv = document.createElement('div');\n\n    const bostonImg = new Image();\n    bostonImg.src = _images_donutImgs_bostonDon_jpg__WEBPACK_IMPORTED_MODULE_1__;\n    const cakeImg = new Image();\n    cakeImg.src = _images_donutImgs_cakeDon_jpg__WEBPACK_IMPORTED_MODULE_2__;\n    const crullerImg = new Image();\n    crullerImg.src = _images_donutImgs_crullerDon_jpg__WEBPACK_IMPORTED_MODULE_3__;\n    const donutholeImg = new Image();\n    donutholeImg.src = _images_donutImgs_donutHoles_jpg__WEBPACK_IMPORTED_MODULE_4__;\n    const longJohnImg = new Image();\n    longJohnImg.src = _images_donutImgs_longJohnDon_jpg__WEBPACK_IMPORTED_MODULE_5__;\n    const yeastImg = new Image();\n    yeastImg.src = _images_donutImgs_yeastDon_jpg__WEBPACK_IMPORTED_MODULE_6__;\n\n    const bostonName = document.createElement('p');\n    const cakeName = document.createElement('p');\n    const crullerName = document.createElement('p');\n    const donutholeName = document.createElement('p');\n    const longJohnName = document.createElement('p');\n    const yeastName = document.createElement('p');\n\n    bostonName.textContent = \"Boston Cream Doughnut\";\n    cakeName.textContent = \"Cake Doughnuts\";\n    crullerName.textContent = \"Cruller\";\n    donutholeName.textContent = \"Doughnut Holes\";\n    longJohnName.textContent = \"Long John\";\n    yeastName.textContent = \"Yeast Doughnuts\";\n\n    bostonDonDiv.appendChild(bostonImg);\n    bostonDonDiv.appendChild(bostonName);\n    cakeDonDiv.appendChild(cakeImg);\n    cakeDonDiv.appendChild(cakeName);\n    crullerDonDiv.appendChild(crullerImg);\n    crullerDonDiv.appendChild(crullerName);\n    donutHolesDiv.appendChild(donutholeImg);\n    donutHolesDiv.appendChild(donutholeName);\n    longJohnDonDiv.appendChild(longJohnImg);\n    longJohnDonDiv.appendChild(longJohnName);\n    yeastDonDiv.appendChild(yeastImg);\n    yeastDonDiv.appendChild(yeastName);\n\n    donutDiv.appendChild(bostonDonDiv);\n    donutDiv.appendChild(cakeDonDiv);\n    donutDiv.appendChild(crullerDonDiv);\n    donutDiv.appendChild(donutHolesDiv);\n    donutDiv.appendChild(longJohnDonDiv);\n    donutDiv.appendChild(yeastDonDiv);\n\n    menuDiv.classList.add('menu');\n    menuHeader.classList.add('menuHeader');\n    donutDiv.classList.add('allDonuts');\n\n    menuLogo.textContent = \"|| Menu ||\";\n    menuHeader.appendChild(menuLogo);\n\n    menuDiv.appendChild(menuHeader);\n    menuDiv.appendChild(donutDiv);\n\n    return menuDiv;\n}\n\n//# sourceURL=webpack://restaurant_page/./src/modules/menu.js?");
+
+/***/ }),
+
 /***/ "./src/images/donut.jpg":
 /*!******************************!*\
   !*** ./src/images/donut.jpg ***!
@@ -137,6 +147,66 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"071d0fea1fbe131bfff0.jpg\";\n\n//# sourceURL=webpack://restaurant_page/./src/images/donut.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/donutImgs/bostonDon.jpg":
+/*!********************************************!*\
+  !*** ./src/images/donutImgs/bostonDon.jpg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"df361bfb110d85ee309a.jpg\";\n\n//# sourceURL=webpack://restaurant_page/./src/images/donutImgs/bostonDon.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/donutImgs/cakeDon.jpg":
+/*!******************************************!*\
+  !*** ./src/images/donutImgs/cakeDon.jpg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"e8a3428126ec7692e789.jpg\";\n\n//# sourceURL=webpack://restaurant_page/./src/images/donutImgs/cakeDon.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/donutImgs/crullerDon.jpg":
+/*!*********************************************!*\
+  !*** ./src/images/donutImgs/crullerDon.jpg ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"2c94bbbbe2a0a353b165.jpg\";\n\n//# sourceURL=webpack://restaurant_page/./src/images/donutImgs/crullerDon.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/donutImgs/donutHoles.jpg":
+/*!*********************************************!*\
+  !*** ./src/images/donutImgs/donutHoles.jpg ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f2b47cea30eaac09e678.jpg\";\n\n//# sourceURL=webpack://restaurant_page/./src/images/donutImgs/donutHoles.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/donutImgs/longJohnDon.jpg":
+/*!**********************************************!*\
+  !*** ./src/images/donutImgs/longJohnDon.jpg ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c83abc6e329f55211c65.jpg\";\n\n//# sourceURL=webpack://restaurant_page/./src/images/donutImgs/longJohnDon.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/donutImgs/yeastDon.jpg":
+/*!*******************************************!*\
+  !*** ./src/images/donutImgs/yeastDon.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"4b222113b7aa9c6b16ca.jpg\";\n\n//# sourceURL=webpack://restaurant_page/./src/images/donutImgs/yeastDon.jpg?");
 
 /***/ })
 

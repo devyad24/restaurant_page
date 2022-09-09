@@ -45,6 +45,7 @@ table {
 body{
     background-color: #E3D5CA;
 }
+/*home.js styles starts*/
 .navLinks{
     display: flex;
     justify-content:  space-around;
@@ -83,4 +84,45 @@ nav{
 .posterDiv>p{
     font-size: 5rem;
     width: 40%; 
+}
+/*home.js style ends*/
+
+/*menu.js style start */
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4.5rem;
+}
+.menuHeader{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+.menuHeader>p{
+    font-size: 4rem;
+    /* border-bottom: 5px solid black; */
+}
+.allDonuts{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 30%;
+    align-self: center;
+    row-gap: 1.5rem;
+    column-gap: 4.5rem;
+    padding-bottom: 2em;
+}
+.allDonuts>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+    gap: 8px;
+}
+.allDonuts>div>img{
+    width:100%;
+    border-radius: 12px;
 }
