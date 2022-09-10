@@ -1,5 +1,4 @@
 import './../styles/style.css';
-import {navfun} from './home.js';
 import bostonDon from './../images/donutImgs/bostonDon.jpg';
 import cakeDon from './../images/donutImgs/cakeDon.jpg';
 import crullerDon from './../images/donutImgs/crullerDon.jpg';
@@ -76,7 +75,6 @@ export default function menu(){
     menuHeader.appendChild(menuLogo);
 
     
-    menuDiv.appendChild(navfun());
     menuDiv.appendChild(menuHeader);
     menuDiv.appendChild(donutDiv);
 

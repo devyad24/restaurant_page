@@ -1,4 +1,3 @@
-import {navfun} from './home.js';
 
 export default function contact(){
 
@@ -23,7 +22,6 @@ export default function contact(){
     infoBox.appendChild(email);
 
 
-    contactDiv.appendChild(navfun());
     contactDiv.appendChild(infoBox);
 
     return contactDiv;
