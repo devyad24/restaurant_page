@@ -1,4 +1,19 @@
-
+@font-face {
+    font-family: 'Myfont';
+    src: url('../fonts/logofont.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+:root{
+    --main-bg-color: #ffb3c6;
+    --nav-bg-color: #ff206e;
+    --logo-font-color: #ffc2d1;
+    --poster-font-color: #fb6f92;
+    --donut-font-color: #fb6f92;
+    --menu-font-color: #ff206e;
+    --contact-border-color: #fe6d73;
+    --contact-font-color: #8f2d56;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -43,7 +58,8 @@ table {
 	border-spacing: 0;
 }
 body{
-    background-color: #E3D5CA;
+    background-color: var(--main-bg-color);
+    font-family: 'Titillium Web',sans-serif;
 }
 
 #content{
@@ -59,8 +75,13 @@ body{
     gap: 1rem;
 }
 .logo{
+    color: var(--logo-font-color);
     font-size: 2.3rem;
     font-weight: 800;
+}
+.logo:hover{
+    cursor: default;
+    color: #d81159;
 }
 .home{
     display: flex;
@@ -68,14 +89,28 @@ body{
     justify-content: space-around;
 }
 nav{
+    background-color: var(--nav-bg-color);
     display: flex;
     justify-content: space-around;
-    margin-top: 0.8rem;
+    padding: 0.8rem 0;
     position:sticky;
     top:0;
 }
 .navLinks>div{
+    color: var(--logo-font-color);
     font-size: 1.2rem;
+}
+.navLinks>div:hover{
+    cursor: default;
+    color: #7209b7;
+}
+.selectedLink{
+    font-size: 2.7rem;
+    font-weight: 800;
+    color: #b5179e;
+}
+.selectedLink::before,.selectedLink::after{
+    content: ' | ';
 }
 .posterDiv{
     margin-top: 2rem;
@@ -90,7 +125,8 @@ nav{
     border-radius: 40%;
 }
 .posterDiv>p{
-    font-size: 5rem;
+    color: var(--poster-font-color);
+    font-size: 4rem;
     width: 40%; 
 }
 /*home.js style ends*/
@@ -109,8 +145,12 @@ nav{
     margin-top: 2.5rem;
 }
 .menuHeader>p{
+    color: var(--menu-font-color);
     font-size: 4rem;
     /* border-bottom: 5px solid black; */
+}
+.menuHeader>p:hover{
+    cursor:default;
 }
 .allDonuts{
     display: grid;
@@ -122,12 +162,13 @@ nav{
     padding-bottom: 2em;
 }
 .allDonuts>div{
+    color: var(--donut-font-color);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     font-size: 1.3rem;
-    font-weight: 400;
+    font-weight: 700;
     gap: 8px;
 }
 .allDonuts>div>img{
@@ -146,8 +187,12 @@ nav{
 
 }
 .infoBox{
+    color: var(--contact-font-color);
+    font-weight: 500;
+    padding: 3em;
     align-self: center;
-    border: 1px solid black;
+    border: 2px solid var(--contact-border-color);
+    background-color: var(--donut-font-color);
     width: 40%;
     display: flex;
     flex-direction: column;
