@@ -11,7 +11,7 @@ export default function contact(){
     contactDiv.classList.add('contact');
     infoBox.classList.add('infoBox');
 
-    address.textContent = "Address: Ground Floor, New Shop No. GF 19 & 20,Old Shop No. GF 25, 26 & 27,ROF Portico, Sector-43, Sushant Lok-1 Gurugram Haryana - 122003"
+    address.textContent = "Address: Ground Floor, New Shop No. GF 19 & 20,Old Shop No. GF 25, 26 & 27,ROF Portico, Sector-43, Sushant Lok-1 Gurugram Haryana - 239239"
     timings.textContent = "Timings: 11:00AM - 12:00AM";
     phone.textContent = "Phone: 0755-4584-3432";
     email.textContent = "Email: customerdonke@donkfood.com";
